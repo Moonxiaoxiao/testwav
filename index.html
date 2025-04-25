@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音频展示页面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .audio-container {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+        }
+        audio {
+            width: 100%;
+        }
+        .audio-info {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>音频文件展示</h1>
+    
+    <div class="audio-container">
+        <audio controls>
+            <source src="wav/1111.wav" type="audio/wav">
+            您的浏览器不支持音频元素。
+        </audio>
+        <div class="audio-info">1111.wav</div>
+    </div>
+    
+    <div class="audio-container">
+        <audio controls>
+            <source src="wav/2222.wav" type="audio/wav">
+            您的浏览器不支持音频元素。
+        </audio>
+        <div class="audio-info">2222.wav</div>
+    </div>
+    
+    <!-- 可以继续添加更多音频文件 -->
+</body>
+</html>
